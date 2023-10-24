@@ -39,7 +39,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    max-width: 1310px;
+    max-width: 1300px;
     margin-top: 3.3rem;
 }
 
@@ -79,7 +79,7 @@ section {
 }
 
 .content p {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.5;
     padding-bottom: 0.1875rem;
 }
