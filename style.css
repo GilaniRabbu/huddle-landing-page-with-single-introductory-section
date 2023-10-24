@@ -47,6 +47,11 @@ header {
     width: 215px;
 }
 
+.header-img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 section {
     display: grid;
     align-items: center;
@@ -79,7 +84,7 @@ section {
 }
 
 .content p {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     line-height: 1.5;
     padding-bottom: 0.1875rem;
 }
@@ -132,4 +137,150 @@ footer .row:hover {
     cursor: pointer;
     color: var(--clr-primary-magenta);
     border: 2px solid var(--clr-primary-magenta);
+}
+
+@media (max-width: 1240px) {
+    header {
+        max-width: 1150px;
+    }
+
+    .img-container {
+        padding-left: 2rem;
+    }
+
+    footer {
+        height: 120px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img-container img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1140px) {
+    header {
+        max-width: 1080px;
+    }
+
+    .content h1 {
+        font-size: 2.25rem;
+    }
+
+    .content p {
+        font-size: 1.05rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .img-container {
+        padding-top: 2rem;
+    }
+
+    .content {
+        padding: 4rem 2rem 0 2rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content button {
+        width: 165px;
+        height: 45px;
+        font-size: 1.12rem;
+    }
+
+    footer {
+        height: 70px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    header {
+        margin-top: 1.5rem;
+    }
+
+    .img-container {
+        padding-top: 1.5rem;
+    }
+
+    .content {
+        padding-top: 1.5rem;
+    }
+
+    .content h1 {
+        font-size: 1.9rem;
+    }
+
+    .content button {
+        width: 150px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 810px) {
+    body {
+        background-image: url(img/bg-mobile.svg);
+    }
+
+    header {
+        max-width: 100%;
+        padding: 0 2rem;
+        margin-top: 1rem;
+    }
+
+    .header-img {
+        width: 160px;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .img-container {
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+        padding: 1rem 2rem 4rem;
+    }
+
+    .content h1 {
+        font-size: 1.7rem;
+    }
+
+    .content button {
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    footer .row {
+        justify-content: center;
+        align-items: center;
+    }
 }
