@@ -77,14 +77,14 @@ section {
 }
 
 .content h1 {
-    font-size: 2.6rem;
+    font-size: 2.55rem;
     font-family: var(--ff-poppins);
     font-weight: var(--fw-600);
     line-height: 1.5;
 }
 
 .content p {
-    font-size: 1.15rem;
+    font-size: 1.12rem;
     line-height: 1.5;
     padding-bottom: 0.1875rem;
 }
