@@ -139,7 +139,7 @@ footer .row:hover {
     border: 2px solid var(--clr-primary-magenta);
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1280px) {
     header {
         max-width: 1150px;
     }
@@ -175,7 +175,7 @@ footer .row:hover {
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
     .img-container {
         padding-top: 2rem;
     }
@@ -204,7 +204,7 @@ footer .row:hover {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     header {
         margin-top: 1.5rem;
     }
@@ -228,7 +228,7 @@ footer .row:hover {
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 768px) {
     body {
         background-image: url(img/bg-mobile.svg);
     }
